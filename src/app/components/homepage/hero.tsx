@@ -9,7 +9,7 @@ const slides = [
   {
     id: 1,
     src: "/images/hero1.svg",
-    title: "YATCHING EXPLORATION",
+    title: "YATCHING EXPLORATIONS",
   },
   {
     id: 2,
@@ -19,12 +19,12 @@ const slides = [
   {
     id: 3,
     src: "/images/hero3.svg",
-    title: "LUXURY SAFARI",
+    title: "LUXURY SAFARIS",
   },
   {
     id: 4,
     src: "/images/hero4.svg",
-    title: "WELLNESS RETREAT",
+    title: "WELLNESS RETREATS",
   },
 ];
 
@@ -71,7 +71,7 @@ export default function Hero() {
       </div>
 
       <div className="md:max-w-[60%] max-w-[80%] absolute top-[35%] left-1/2 -translate-x-1/2 -translate-y-1/2 text-center z-[2]">
-        <h1 className="md:text-[64px] text-[40px]">
+        <h1 className="md:text-[64px] text-[40px] font-neue">
           Unforgettable experiences paid for with Bitcoin.
         </h1>
       </div>
@@ -100,7 +100,7 @@ export default function Hero() {
           role="button"
           aria-label="scroll-to-next-section"
           onClick={scrollAway}
-          className="w-[48px] h-[48px] lg:flex cursor-pointer absolute left-1/2 -translate-x-1/2 hidden justify-center items-center border border-white rounded-full"
+          className="w-[48px] h-[48px] hover:bg-[#c7c7c7]/85 lg:flex cursor-pointer absolute left-1/2 -translate-x-1/2 hidden justify-center items-center border border-white rounded-full"
         >
           <ChevronDownIcon fontSize={36} />
         </div>
@@ -127,14 +127,15 @@ export default function Hero() {
           ))}
         </div>
 
-        <div
+        <motion.div
+          whileTap={{ backgroundColor: "rgba(199, 199, 199, 0.85)" }}
           role="button"
           aria-label="scroll-to-next-section"
           onClick={scrollAway}
           className="w-[48px] h-[48px] lg:-bottom-[60%] -bottom-[80%] flex absolute left-1/2 -translate-x-1/2 lg:hidden justify-center items-center border border-white rounded-full z-20!"
         >
           <ChevronDownIcon fontSize={36} />
-        </div>
+        </motion.div>
       </div>
     </header>
   );

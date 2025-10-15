@@ -41,7 +41,7 @@ export default function ServicesSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-[24px] md:text-[40px] font-light text-[var(--text-dark)] leading-tight">
+            <h2 className="text-[24px] md:text-[40px] font-light text-[var(--text-dark)] leading-tight font-neue">
               Luxury bespoke moments curated for you and your loved ones.
             </h2>
           </motion.div>
@@ -78,7 +78,7 @@ export default function ServicesSection() {
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
                 />
               </div>
-              <h3 className="text-xl md:text-2xl font-light text-[var(--text-dark)] mb-2">
+              <h3 className="text-xl md:text-2xl font-light text-[var(--text-dark)] mb-2 font-neue">
                 {service.title}
               </h3>
               <p className="text-[var(--text-dark1)] text-[14px] leading-[24px] font-medium">

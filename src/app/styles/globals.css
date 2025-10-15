@@ -5,6 +5,54 @@
   --foreground: #171717;
 }
 
+@font-face {
+  font-family: "Neue", sans-serif;
+  src: url("/fonts/neue/HelveticaNeueBlack.otf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue", sans-serif;
+  src: url("/fonts/neue/HelveticaNeueBlack.otf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue", sans-serif;
+  src: url("/fonts/neue/HelveticaNeueBlack.otf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue", sans-serif;
+  src: url("/fonts/neue/HelveticaNeueMedium.otf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue", sans-serif;
+  src: url("/fonts/neue/HelveticaNeueMedium.otf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue", sans-serif;
+  src: url("/fonts/neue/HelveticaNeueBold.otf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme {
   --text-dark: #090909;
   --text-dark1: #666666;
@@ -16,16 +64,17 @@
   --footer-bg1: #1a1a1a;
 
   /* --font-family-sans: "Geist", sans-serif;
-  --font-family-serif: "Playfair", serif;
-  --font-family-neuehas: "Neuehas", sans-serif;
-  --font-family-inter: var(--font-inter), sans-serif; */
+  --font-family-serif: "Playfair", serif; */
+  --font-family-neue: "Neue", sans-serif;
+  --font-family-inter: var(--font-inter), sans-serif;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* --font-sans: var(--font-geist-sans); */
+  --font-neue: var(--font-family-neue);
+  --font-inter: var(--font-family-inter);
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -38,7 +87,7 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter);
 }
 
 @keyframes fadeIn {

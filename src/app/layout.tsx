@@ -13,10 +13,11 @@ export const metadata: Metadata = {
   title:
     "Stealth experiences | Unforgettable experiences paid for with Bitcoin.",
   description:
-    "Stealth experiences helps businesses securely hold and manage Bitcoin using stealth custody technology. Build your company’s Bitcoin treasury with privacy and confidence.",
+    "Stealth experiences is a luxury concierge platform that lets you design and pay for bespoke experiences using Bitcoin.",
   keywords: [
     "Stealth experiences",
     "Bitcoin custody",
+    "Bitcoin experiences",
     "corporate treasury",
     "crypto custody",
     "Bitcoin for companies",
@@ -30,7 +31,7 @@ export const metadata: Metadata = {
     title:
       "Stealth Experiences | Unforgettable experiences paid for with Bitcoin.",
     description:
-      "Hold and manage Bitcoin with enterprise-level security and stealth custody. Protect your company's crypto assets with Stealth experiences.",
+      "Stealth experiences design unforgettable experiences paid for with Bitcoin.",
     url: "https://www.stealthexperiences.com",
     siteName: "Stealth experiences",
     images: [

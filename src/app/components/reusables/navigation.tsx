@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { useState, useEffect, useRef } from "react";
 import { MagnifyingGlassIcon } from "@radix-ui/react-icons";
+import Image from "next/image";
 
 export default function Navigation() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
@@ -28,7 +29,14 @@ export default function Navigation() {
   return (
     <nav className="absolute top-5 left-1/2 -translate-x-1/2 w-full max-w-[90%] flex justify-between items-center bg-transparent py-6 px-4 z-50">
       <div className="w-auto text-white font-semibold text-lg">
-        <Link href={"/"}>STEALTH EXPERIENCES</Link>
+        <Link href={"/"}>
+          <Image
+            src={"/images/StealthExperiences.svg"}
+            width={100}
+            height={100}
+            alt="logo"
+          />
+        </Link>
       </div>
 
       <div className="flex items-center gap-4 relative">
@@ -39,7 +47,7 @@ export default function Navigation() {
             onClick={() => setIsSearchOpen((prev) => !prev)}
             className="transition-transform duration-200 hover:scale-110"
           >
-            <MagnifyingGlassIcon fontSize="36px" color="white" />
+            <MagnifyingGlassIcon width="24px" height="24px" color="white" />
           </button>
 
           <input
