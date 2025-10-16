@@ -6,7 +6,7 @@
 }
 
 @font-face {
-  font-family: "Neue", sans-serif;
+  font-family: "Neue";
   src: url("/fonts/neue/HelveticaNeueBlack.otf") format("truetype");
   font-weight: 200;
   font-style: italic;
@@ -14,23 +14,23 @@
 }
 
 @font-face {
-  font-family: "Neue", sans-serif;
-  src: url("/fonts/neue/HelveticaNeueBlack.otf") format("truetype");
+  font-family: "Neue";
+  src: url("/fonts/neue/HelveticaNeueLight.otf") format("truetype");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Neue", sans-serif;
-  src: url("/fonts/neue/HelveticaNeueBlack.otf") format("truetype");
+  font-family: "Neue";
+  src: url("/fonts/neue/HelveticaNeueLight.otf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Neue", sans-serif;
+  font-family: "Neue";
   src: url("/fonts/neue/HelveticaNeueMedium.otf") format("truetype");
   font-weight: 500;
   font-style: normal;
@@ -38,7 +38,7 @@
 }
 
 @font-face {
-  font-family: "Neue", sans-serif;
+  font-family: "Neue";
   src: url("/fonts/neue/HelveticaNeueMedium.otf") format("truetype");
   font-weight: 600;
   font-style: normal;
@@ -46,8 +46,56 @@
 }
 
 @font-face {
-  font-family: "Neue", sans-serif;
+  font-family: "Neue";
   src: url("/fonts/neue/HelveticaNeueBold.otf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/montserrat/Montserrat-Italic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/montserrat/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/montserrat/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/montserrat/Montserrat-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/montserrat/Montserrat-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/montserrat/Montserrat-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -66,6 +114,7 @@
   /* --font-family-sans: "Geist", sans-serif;
   --font-family-serif: "Playfair", serif; */
   --font-family-neue: "Neue", sans-serif;
+  --font-family-montserrat: "Montserrat", sans-serif;
   --font-family-inter: var(--font-inter), sans-serif;
 }
 
@@ -75,6 +124,7 @@
   /* --font-sans: var(--font-geist-sans); */
   --font-neue: var(--font-family-neue);
   --font-inter: var(--font-family-inter);
+  --font-montserrat: var(--font-family-montserrat);
 }
 
 /* @media (prefers-color-scheme: dark) {

@@ -40,7 +40,7 @@ export default function AboutSection() {
       ref={sectionRef}
       className="bg-[#010101] py-16 md:py-24 lg:py-32 w-full flex flex-col justify-center items-center min-h-screen"
     >
-      <div className="w-full flex flex-col justify-center items-center max-w-[90%] font-neue">
+      <div className="w-full flex flex-col justify-center items-center max-w-[90%] font-medium font-neue">
         <div className="md:text-[40px] text-[24px] leading-[64px]">
           <motion.span style={{ color: text1Color }}>We </motion.span>
           <motion.span style={{ color: text2Color }}>

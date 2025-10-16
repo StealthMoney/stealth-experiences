@@ -25,7 +25,7 @@ const services = [
   {
     title: "Pay with Bitcoin",
     description:
-      "Bitcoin is money that grows over the long term, with Stealth Experiences you can pay for once in a lifetime experiences with Bitcoin.",
+      "Bitcoin is money that grows over the long term, with Stealth Experiences you can pay for your priceless, once-in-a-lifetime experiences with Bitcoin.",
     image: "/images/mural4.webp",
   },
 ];
@@ -78,7 +78,7 @@ export default function ServicesSection() {
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
                 />
               </div>
-              <h3 className="text-xl md:text-2xl font-medium text-[var(--text-dark)] mb-2 font-neue">
+              <h3 className="text-xl md:text-2xl font-medium text-[var(--text-dark)] mb-2 font-montserrat">
                 {service.title}
               </h3>
               <p className="text-[var(--text-dark1)] text-[14px] leading-[24px] font-[400]">
@@ -87,20 +87,6 @@ export default function ServicesSection() {
             </motion.div>
           ))}
         </div>
-
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="mt-12 lg:mt-16 flex justify-center w-full"
-        >
-          <Button
-            type="button"
-            text="Join Waitlist"
-            className="w-full md:max-w-[60%] max-w-[90%] px-8 py-5 border border-[var(--text-dark)] text-[var(--text-dark)] hover:text-[#090909]/85 cursor-pointer transition-colors duration-300 text-sm md:text-base font-light"
-          />
-        </motion.div>
       </div>
     </section>
   );

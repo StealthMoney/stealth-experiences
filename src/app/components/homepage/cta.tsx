@@ -13,7 +13,7 @@ export default function CtaSection() {
           transition={{ duration: 0.6 }}
           className="space-y-8"
         >
-          <h2 className="text-[24px] md:text-[64px] text-white leading-tight font-neue">
+          <h2 className="text-[24px] md:text-[64px] font-[400] text-white leading-tight font-neue">
             Enjoy unforgettable experiences paid for with Bitcoin.
           </h2>
           <p className="text-[#c7c7c7] text-[16px] md:text-[18px]">

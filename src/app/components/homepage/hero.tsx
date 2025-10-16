@@ -71,7 +71,7 @@ export default function Hero() {
       </div>
 
       <div className="md:max-w-[60%] max-w-[80%] absolute top-[40%] left-1/2 -translate-x-1/2 -translate-y-1/2 text-center z-[2]">
-        <h1 className="md:text-[64px] text-[40px] font-neue">
+        <h1 className="md:text-[64px] text-[40px] font-[400] font-neue">
           Unforgettable experiences paid for with Bitcoin.
         </h1>
       </div>
