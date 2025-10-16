@@ -11,7 +11,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title:
-    "Stealth experiences | Unforgettable experiences paid for with Bitcoin.",
+    "Stealth Experiences | Unforgettable experiences paid for with Bitcoin.",
   description:
     "Stealth experiences is a luxury concierge platform that lets you design and pay for bespoke experiences using Bitcoin.",
   keywords: [
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Stealth experiences | Unforgettable experiences paid for with Bitcoin.",
+      "Stealth Experiences | Unforgettable experiences paid for with Bitcoin.",
     description:
       "Stealth experiences design unforgettable experiences paid for with Bitcoin.",
     images: ["/images/hero.png"],
