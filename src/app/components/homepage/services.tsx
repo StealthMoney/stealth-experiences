@@ -41,7 +41,7 @@ export default function ServicesSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-[24px] md:text-[40px] font-light text-[var(--text-dark)] leading-tight font-neue">
+            <h2 className="text-[24px] md:text-[40px] font-[400] text-[var(--text-dark)] leading-tight font-neue">
               Luxury bespoke moments curated for you and your loved ones.
             </h2>
           </motion.div>
@@ -52,7 +52,7 @@ export default function ServicesSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="flex items-end"
           >
-            <p className="text-[var(--text-dark)] text-[16px] md:text-[18px] leading-[32px]">
+            <p className="text-[var(--text-dark)] text-[16px] md:text-[18px] leading-[32px] font-[400]">
               With tailored luxury travel, VIP access, and bespoke
               once-in-a-lifetime moments, we handle every detail behind the
               scenes so you simply arrive, experience, and remember.
@@ -78,10 +78,10 @@ export default function ServicesSection() {
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
                 />
               </div>
-              <h3 className="text-xl md:text-2xl font-light text-[var(--text-dark)] mb-2 font-neue">
+              <h3 className="text-xl md:text-2xl font-medium text-[var(--text-dark)] mb-2 font-neue">
                 {service.title}
               </h3>
-              <p className="text-[var(--text-dark1)] text-[14px] leading-[24px] font-medium">
+              <p className="text-[var(--text-dark1)] text-[14px] leading-[24px] font-[400]">
                 {service.description}
               </p>
             </motion.div>
