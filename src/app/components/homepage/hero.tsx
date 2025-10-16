@@ -8,22 +8,22 @@ import { useState, useEffect } from "react";
 const slides = [
   {
     id: 1,
-    src: "/images/hero1.svg",
+    src: "/images/hero1.webp",
     title: "YATCHING EXPLORATIONS",
   },
   {
     id: 2,
-    src: "/images/hero2.svg",
+    src: "/images/hero2.webp",
     title: "FORMULA 1 WEEKENDS",
   },
   {
     id: 3,
-    src: "/images/hero3.svg",
+    src: "/images/hero3.webp",
     title: "LUXURY SAFARIS",
   },
   {
     id: 4,
-    src: "/images/hero4.svg",
+    src: "/images/hero4.webp",
     title: "WELLNESS RETREATS",
   },
 ];
@@ -70,7 +70,7 @@ export default function Hero() {
         </AnimatePresence>
       </div>
 
-      <div className="md:max-w-[60%] max-w-[80%] absolute top-[35%] left-1/2 -translate-x-1/2 -translate-y-1/2 text-center z-[2]">
+      <div className="md:max-w-[60%] max-w-[80%] absolute top-[40%] left-1/2 -translate-x-1/2 -translate-y-1/2 text-center z-[2]">
         <h1 className="md:text-[64px] text-[40px] font-neue">
           Unforgettable experiences paid for with Bitcoin.
         </h1>

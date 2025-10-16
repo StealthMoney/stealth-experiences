@@ -8,25 +8,25 @@ const services = [
     title: "Digital Concierge",
     description:
       "Enjoy memories, organised with a few clicks. Stealth Experiences combines personal assistant expertise with digital access.",
-    image: "/images/mural1.svg",
+    image: "/images/mural1.webp",
   },
   {
     title: "Exclusive Luxury",
     description:
       "Live with effortless elegance. We deliver  quality & absolute discretion, transforming luxury into a personal, seamless experience.",
-    image: "/images/mural2.svg",
+    image: "/images/mural2.webp",
   },
   {
     title: "Unparalleled Service",
     description:
       "Enjoy a dedicated support structure that handles your every request with precision, speed, and genuine dedication.",
-    image: "/images/mural3.svg",
+    image: "/images/mural3.webp",
   },
   {
     title: "Pay with Bitcoin",
     description:
       "Bitcoin is money that grows over the long term, with Stealth Experiences you can pay for once in a lifetime experiences with Bitcoin.",
-    image: "/images/mural4.svg",
+    image: "/images/mural4.webp",
   },
 ];
 
@@ -34,7 +34,7 @@ export default function ServicesSection() {
   return (
     <section className="bg-white py-16 md:py-24 lg:py-32">
       <div className="w-full max-w-[90%] mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center gap-x-8 gap-y-4 md:mb-0 mb-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center gap-x-8 gap-y-4 md:mb-6 mb-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}

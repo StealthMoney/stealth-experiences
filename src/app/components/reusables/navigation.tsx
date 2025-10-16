@@ -32,8 +32,8 @@ export default function Navigation() {
         <Link href={"/"}>
           <Image
             src={"/images/StealthExperiences.svg"}
-            width={100}
-            height={100}
+            width={150}
+            height={150}
             alt="logo"
           />
         </Link>
