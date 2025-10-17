@@ -44,7 +44,7 @@ export default function AboutSection() {
         <div className="md:text-[40px] text-[24px] leading-[64px]">
           <motion.span style={{ color: text1Color }}>We </motion.span>
           <motion.span style={{ color: text2Color }}>
-            design unforgettable experiences paid for with Bitcoin.
+            design memorable experiences paid for with Bitcoin.
           </motion.span>
         </div>
 
@@ -61,7 +61,7 @@ export default function AboutSection() {
           style={{ color: text4Color }}
           className="md:text-[40px] text-[24px] leading-[64px]"
         >
-          No banks. No delays. Just the freedom, privacy, and global access that
+          No banks. No card info required. Just the freedom, privacy, and global access that
           Bitcoin provides combined with white-glove service at every step of
           the way.
         </motion.p>

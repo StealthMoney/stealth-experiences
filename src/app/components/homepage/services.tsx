@@ -41,7 +41,7 @@ export default function ServicesSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-[24px] md:text-[40px] font-[400] text-[var(--text-dark)] leading-tight font-neue">
+            <h2 className="text-[24px] md:text-[40px] font-[400] text-[var(--text-dark)] leading-tight font-ubuntu">
               Luxury bespoke moments curated for you and your loved ones.
             </h2>
           </motion.div>

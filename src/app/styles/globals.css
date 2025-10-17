@@ -53,6 +53,57 @@
   font-display: swap;
 }
 
+/* -------------------------------------------------------> Ubuntu <-------------------------------------------------------------------- */
+@font-face {
+  font-family: "Ubuntu";
+  src: url("/fonts/ubuntu/Ubuntu-Italic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("/fonts/ubuntu/Ubuntu-Regular.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("/fonts/ubuntu/Ubuntu-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("/fonts/ubuntu/Ubuntu-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("/fonts/ubuntu/Ubuntu-Medium.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("/fonts/ubuntu/Ubuntu-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* -------------------------------------------------------> Montserrat <-------------------------------------------------------------------- */
+
 @font-face {
   font-family: "Montserrat";
   src: url("/fonts/montserrat/Montserrat-Italic.ttf") format("truetype");
@@ -115,6 +166,7 @@
   --font-family-serif: "Playfair", serif; */
   --font-family-neue: "Neue", sans-serif;
   --font-family-montserrat: "Montserrat", sans-serif;
+  --font-family-ubuntu: "Ubuntu", sans-serif;
   --font-family-inter: var(--font-inter), sans-serif;
 }
 
@@ -125,6 +177,7 @@
   --font-neue: var(--font-family-neue);
   --font-inter: var(--font-family-inter);
   --font-montserrat: var(--font-family-montserrat);
+  --font-ubuntu: var(--font-family-ubuntu);
 }
 
 /* @media (prefers-color-scheme: dark) {
