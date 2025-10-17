@@ -7,7 +7,7 @@ const services = [
   {
     title: "Digital Concierge",
     description:
-      "Enjoy memories, organised with a few clicks. Stealth Experiences combines personal assistant expertise with digital access.",
+      "Enjoy lifelong memories, organised with a few clicks. Stealth Experiences combines personal assistant expertise with digital access.",
     image: "/images/mural1.webp",
   },
   {
